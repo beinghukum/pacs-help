@@ -1,0 +1,247 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Khad Sale - PACS Auto Help</title><link rel="stylesheet" href="../site.css?v=8e6ede04"><link rel="icon" href="../favicon.svg"></head><body class="en" data-lang="en" data-root="../" data-v="8e6ede04"><div class="top"><button class="menu" aria-label="menu">☰</button><a class="logo" href="../en/index.html"><i></i>PACS Auto Help</a><div class="srch"><input type="search" placeholder="Search the help..." aria-label="search"><div class="res" data-none="Nothing found - try another word."></div></div><div class="lt"><a href="#" class=on>English</a><a href="../hi/khad-sale.html">हिंदी</a></div></div><div class="wrap"><nav class="side"><a href="../en/getting-started.html"><img class="mi" width="20" height="20" src="../img/ribbon/help_book.png" alt="">Getting started</a><div class="g">Khad</div><a href="../en/khad-sale.html" class=on><img class="mi" src="../img/ribbon/mod_khad_sale.png" width="20" height="20" alt="">Khad Sale</a><a href="../en/sale-voucher.html"><img class="mi" src="../img/ribbon/mod_sale_voucher.png" width="20" height="20" alt="">Sale Voucher</a><a href="../en/sale-cancel.html"><img class="mi" src="../img/ribbon/mod_sale_cancel.png" width="20" height="20" alt="">Sale Cancel</a><span><img class="mi" src="../img/ribbon/mod_sale_return.png" width="20" height="20" alt="">Sale Return<em>soon</em></span><div class="g">Members & Deposits</div><span><img class="mi" src="../img/ribbon/mod_enroll_member.png" width="20" height="20" alt="">Enroll Member<em>soon</em></span><span><img class="mi" src="../img/ribbon/mod_share_deposit.png" width="20" height="20" alt="">Share Deposit<em>soon</em></span><span><img class="mi" src="../img/ribbon/mod_share_withdrawal.png" width="20" height="20" alt="">Share Withdrawal<em>soon</em></span><span><img class="mi" src="../img/ribbon/mod_saving_deposit.png" width="20" height="20" alt="">Saving Deposit<em>soon</em></span><div class="g">Loans</div><span><img class="mi" src="../img/ribbon/mod_register_land.png" width="20" height="20" alt="">Register Land<em>soon</em></span><span><img class="mi" src="../img/ribbon/mod_loan_disbursement.png" width="20" height="20" alt="">Loan Disbursement<em>soon</em></span><span><img class="mi" src="../img/ribbon/mod_loan_collection.png" width="20" height="20" alt="">Loan Collection<em>soon</em></span><div class="g">Vouchers (FAS)</div><span><img class="mi" src="../img/ribbon/mod_cash_payment.png" width="20" height="20" alt="">Cash Payment<em>soon</em></span><span><img class="mi" src="../img/ribbon/mod_cash_receipt.png" width="20" height="20" alt="">Cash Receipt<em>soon</em></span><span><img class="mi" src="../img/ribbon/mod_other_transfer.png" width="20" height="20" alt="">Other Transfer<em>soon</em></span><div class="g">PDS</div><span><img class="mi" src="../img/ribbon/mod_pds_purchase.png" width="20" height="20" alt="">PDS Purchase<em>soon</em></span><span><img class="mi" src="../img/ribbon/mod_pds_sale.png" width="20" height="20" alt="">PDS Sale<em>soon</em></span><span><img class="mi" src="../img/ribbon/mod_pds_voucher.png" width="20" height="20" alt="">PDS Voucher<em>soon</em></span><div class="g">Help</div><span><img class="mi" width="20" height="20" src="../img/ribbon/help_chat.png" alt="">Common messages (FAQ)<em>soon</em></span></nav><main class="main"><h1>Khad Sale</h1>
+<p class="lead">Makes khad (fertilizer) permits on PACS for many members - one row = one permit. You type the member and the quantities in Excel; PACS Auto fills the PACS Sales page, saves it and writes the Permit No back into your row.</p>
+
+<h2 id="what">1. What this module does</h2>
+<p>It works on the PACS page <b>Merchandise → Sales</b>. For every row it opens the Sales page in your Godown, types the member's Admission No, adds each khad with its quantity, chooses the payment (Cash, or Credit on the member's loan account) and saves the permit. Then it writes <b>DONE</b>, the Permit No, the amount and the khad on the permit into your row.</p>
+<div class="note">The PACS website calls a permit a <b>Bill</b>. In PACS Auto it is always called <b>Permit</b>.</div>
+
+<h2 id="before">2. Before you start</h2>
+<ul>
+<li>You are logged in to PACS Auto and to PACS - green <b>Logged in</b> (see <a href="getting-started.html#d-login">Getting started</a>).</li>
+<li>First time on this sheet: press <a class="btn" href="#d-getkhad">Get Khad Details</a>. It reads your godowns, categories and khad names from PACS (read only). Press it again when PACS gets a new khad.</li>
+</ul>
+
+<h2 id="screen">3. The screen</h2>
+<div class="fig"><div class="xl hotfig"><div class="tabsbar"><span>Home</span><span class=on>Khad Sale</span><span>Sale Voucher</span><span>Sale Cancel</span><span>Sale Return</span><span>Enroll Member</span><span>...</span></div><div class="rib"><div class="grp"><div class="btns"><a class="hot b" href="#d-update" title="Check for update - see details"><img class="ic" src="../img/ribbon/update.png" alt="">Check for update</a></div><div class="gl">Update</div></div><div class="grp"><div class="btns"><a class="hot b" href="#d-details" title="PACS Details - see details"><img class="ic" src="../img/ribbon/details.png" alt="">PACS Details</a><a class="hot b" href="#d-login" title="Login to PACS - see details"><img class="ic" src="../img/ribbon/login.png" alt="">Login to PACS</a><div class="vbox"><a class="hot dd" href="#d-website">mp4.uniteerp.in ▾</a><a class="hot dd" href="#d-date">28-11-2026</a><a class="hot ok" href="#d-dot"><img class="ic" src="../img/ribbon/dot_green.png" alt="">Logged in</a></div></div><div class="gl">PACS Login</div></div><div class="grp"><div class="btns"><a class="hot b" href="#d-modules" title="Modules ▾ - see details"><img class="ic" src="../img/ribbon/modules.png" alt="">Modules ▾</a></div><div class="gl">Modules</div></div><div class="grp"><div class="btns"><a class="hot b" href="#d-test" title="Test Permit - see details"><img class="ic" src="../img/ribbon/test.png" alt="">Test Permit</a><a class="hot b" href="#d-make" title="Make Permit - see details"><img class="ic" src="../img/ribbon/make.png" alt="">Make Permit</a><a class="hot b" href="#d-bulk" title="Make Bulk Permit - see details"><img class="ic" src="../img/ribbon/bulk.png" alt="">Make Bulk Permit</a><a class="hot b" href="#d-pause" title="Pause - see details"><img class="ic" src="../img/ribbon/pause.png" alt="">Pause</a><a class="hot b" href="#d-stop" title="Stop - see details"><img class="ic" src="../img/ribbon/stop.png" alt="">Stop</a><a class="hot b" href="#d-clear" title="Clear Sheet - see details"><img class="ic" src="../img/ribbon/clear.png" alt="">Clear Sheet</a></div><div class="gl">Run (selected row)</div></div><div class="grp"><div class="btns"><a class="hot b" href="#d-getkhad" title="Get Khad Details - see details"><img class="ic" src="../img/ribbon/get.png" alt="">Get Khad Details</a><a class="hot b" href="#d-khadcols" title="Khad Columns - see details"><img class="ic" src="../img/ribbon/columns.png" alt="">Khad Columns</a><a class="hot b" href="#d-match" title="Match khad stock with PACS - see details"><img class="ic" src="../img/ribbon/check.png" alt="">Match khad stock with PACS</a><a class="hot b" href="#d-show" title="Show khad stock from PACS - see details"><img class="ic" src="../img/ribbon/show.png" alt="">Show khad stock from PACS</a></div><div class="gl">Khad Sale</div></div><div class="grp"><div class="btns"><a class="hot b" href="#d-help" title="Help ▾ - see details"><img class="ic" src="../img/ribbon/help.png" alt="">Help ▾</a></div><div class="gl">Help</div></div></div><div class="band"><a class="hot bx" href="#d-godown" title="Godown - see details"><small>Godown</small><span>Demo Godown ▾</span></a><a class="hot bx" href="#d-category" title="Category - see details"><small>Category</small><span>Fertilizer ▾</span></a><a class="hot bx" href="#d-payment" title="Payment - see details"><small>Payment</small><span>Credit ▾</span></a><a class="hot bx" href="#d-account" title="Account - see details"><small>Account</small><span>Loans ▾</span></a><a class="hot bx" href="#d-loan" title="Loan - see details"><small>Loan</small><span>KCC Kharif ▾</span></a><a class="hot bx tick" href="#d-pdf" title="☑ Save permit PDF - see details"><small>&nbsp;</small><span>☑ Save permit PDF</span></a><a class="hot tiles" href="#d-tiles" title="Totals - see details"><span class="tl money">₹ Total 3,915.50</span><span class="tl dn">✔ DONE 2</span><span class="tl er">✖ Errors 1</span><span class="tl wt">⏳ Waiting 1</span></a></div><table class="sh"><tr><th class="ty">SR</th><th class="ty">Admission No *</th><th class="ty">DAP</th><th class="ty">Urea</th><th class="ty">NPK 12:32:16</th><th class="ty">Member Name</th><th class="ty">Remark</th><th class="ap">Village</th><th class="ap">Permit No</th><th class="ap">Permit Amount</th><th class="ap">Items in Permit</th><th class="rs">STATUS</th><th class="rs">MESSAGE</th></tr><tr><td>1</td><td>0000101</td><td>2</td><td>3</td><td></td><td>Demo Member 1</td><td>for Rabi</td><td class="a">Demo Village A</td><td class="a">25101</td><td class="a">3,030.50</td><td class="a">DAP 2, Urea 3</td><td class="d">DONE</td><td>Permit saved</td></tr><tr><td>2</td><td>0000102</td><td>1</td><td></td><td></td><td>Demo Member 2</td><td></td><td class="a">Demo Village B</td><td class="a">25102</td><td class="a">885.00</td><td class="a">DAP 1</td><td class="d">DONE</td><td>Permit saved</td></tr><tr><td>3</td><td>0000103</td><td></td><td>2</td><td>1</td><td></td><td></td><td class="a"></td><td class="a"></td><td class="a"></td><td class="a"></td><td class="e">ERROR</td><td>This member has no Loans account</td></tr><tr class=sel><td>4</td><td>0000104</td><td>1</td><td>2</td><td></td><td></td><td></td><td class="a"></td><td class="a"></td><td class="a"></td><td class="a"></td><td></td><td></td></tr></table></div></div>
+<div class="hint">👆 Click any button or box in the picture to jump to its details.</div>
+<p class="cap">Picture: the Khad Sale sheet with demo data (invented names). Every button and box is a link.</p>
+<p><b>Or pick from the list</b> - every button and option of this sheet:</p>
+<table class="blist">
+<tr class="grow"><td></td><td colspan="3">Run (selected row) - ribbon</td></tr>
+<tr><td><img class="ic" src="../img/ribbon/test.png" alt=""></td><td><a href="#d-test"><b>Test Permit</b></a></td><td>Fills the selected row on PACS, does not save</td><td><a class="go" href="#d-test">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/make.png" alt=""></td><td><a href="#d-make"><b>Make Permit</b></a></td><td>Makes + saves the selected row's permit</td><td><a class="go" href="#d-make">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/bulk.png" alt=""></td><td><a href="#d-bulk"><b>Make Bulk Permit</b></a></td><td>Every row from the selected row down</td><td><a class="go" href="#d-bulk">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/pause.png" alt=""></td><td><a href="#d-pause"><b>Pause / Resume</b></a></td><td>Waits after the current permit</td><td><a class="go" href="#d-pause">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/stop.png" alt=""></td><td><a href="#d-stop"><b>Stop</b></a></td><td>Current permit finishes, then stops</td><td><a class="go" href="#d-stop">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/clear.png" alt=""></td><td><a href="#d-clear"><b>Clear Sheet</b></a></td><td>Deletes all rows (backup first)</td><td><a class="go" href="#d-clear">Details →</a></td></tr>
+<tr class="grow"><td></td><td colspan="3">Khad Sale - ribbon</td></tr>
+<tr><td><img class="ic" src="../img/ribbon/get.png" alt=""></td><td><a href="#d-getkhad"><b>Get Khad Details</b></a></td><td>Godowns, categories, khad from PACS</td><td><a class="go" href="#d-getkhad">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/columns.png" alt=""></td><td><a href="#d-khadcols"><b>Khad Columns</b></a></td><td>Which khad columns you see + order</td><td><a class="go" href="#d-khadcols">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/check.png" alt=""></td><td><a href="#d-match"><b>Match khad stock with PACS</b></a></td><td>Rows need vs PACS stock</td><td><a class="go" href="#d-match">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/show.png" alt=""></td><td><a href="#d-show"><b>Show khad stock from PACS</b></a></td><td>Only shows the stock</td><td><a class="go" href="#d-show">Details →</a></td></tr>
+<tr class="grow"><td></td><td colspan="3">Top of the sheet</td></tr>
+<tr><td><i class="ic box">▾</i></td><td><a href="#d-godown"><b>Godown</b></a></td><td>Godown the khad goes out from</td><td><a class="go" href="#d-godown">Details →</a></td></tr>
+<tr><td><i class="ic box">▾</i></td><td><a href="#d-category"><b>Category</b></a></td><td>Khad category - adds khad columns</td><td><a class="go" href="#d-category">Details →</a></td></tr>
+<tr><td><i class="ic box">▾</i></td><td><a href="#d-payment"><b>Payment</b></a></td><td>Credit or Cash</td><td><a class="go" href="#d-payment">Details →</a></td></tr>
+<tr><td><i class="ic box">▾</i></td><td><a href="#d-account"><b>Account</b></a></td><td>Credit only - usually Loans</td><td><a class="go" href="#d-account">Details →</a></td></tr>
+<tr><td><i class="ic box">▾</i></td><td><a href="#d-loan"><b>Loan</b></a></td><td>Which loan, e.g. KCC Kharif</td><td><a class="go" href="#d-loan">Details →</a></td></tr>
+<tr><td><i class="ic box">☑</i></td><td><a href="#d-pdf"><b>Save permit PDF</b></a></td><td>PDF of every permit on the Desktop</td><td><a class="go" href="#d-pdf">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/rupee.png" alt=""></td><td><a href="#d-tiles"><b>Totals</b></a></td><td>₹ Total, DONE, Errors, Waiting</td><td><a class="go" href="#d-tiles">Details →</a></td></tr>
+<tr class="grow"><td></td><td colspan="3">Every sheet</td></tr>
+<tr><td><img class="ic" src="../img/ribbon/login.png" alt=""></td><td><a href="#d-login"><b>Login to PACS</b></a></td><td>Chrome + captcha</td><td><a class="go" href="#d-login">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/details.png" alt=""></td><td><a href="#d-details"><b>PACS Details</b></a></td><td>Your PACS User ID + password</td><td><a class="go" href="#d-details">Details →</a></td></tr>
+<tr><td><i class="ic box">▾</i></td><td><a href="#d-website"><b>Website</b></a></td><td>Your PACS server</td><td><a class="go" href="#d-website">Details →</a></td></tr>
+<tr><td><i class="ic box">▾</i></td><td><a href="#d-date"><b>Date</b></a></td><td>The permit date (empty = today)</td><td><a class="go" href="#d-date">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/dot_green.png" alt=""></td><td><a href="#d-dot"><b>Logged in / Logged out</b></a></td><td>Green / red dot</td><td><a class="go" href="#d-dot">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/update.png" alt=""></td><td><a href="#d-update"><b>Check for update</b></a></td><td>New version now</td><td><a class="go" href="#d-update">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/modules.png" alt=""></td><td><a href="#d-modules"><b>Modules</b></a></td><td>Open any sheet</td><td><a class="go" href="#d-modules">Details →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/help.png" alt=""></td><td><a href="#d-help"><b>Help</b></a></td><td>Guide + chat with support</td><td><a class="go" href="#d-help">Details →</a></td></tr>
+</table>
+<h2 id="buttons">4. Every button and option</h2>
+<p>Each card says what the button or option does, when to use it and what you will see. <a href="#screen">↑ Back to the picture</a></p>
+
+<div class="gh">Run (selected row) - ribbon</div>
+
+<div class="bd" id="d-test"><div class="bdh"><img class="ic" src="../img/ribbon/test.png" alt=""><div><b>Test Permit</b><small>Ribbon · Run (selected row)</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Fills the permit of the <b>selected row</b> on the PACS website in Chrome, but does <b>not</b> save it. Use it to check everything once before you make real permits.</p>
+<div class="bdg"><div><h4>When to use</h4><ul><li>First time on a new day, or after you change Godown / Payment / Loan.</li><li>A member whose row gave an ERROR - to see what PACS says.</li></ul></div>
+<div><h4>What happens</h4><ol><li>The "please check" window opens - <kbd>Enter</kbd> = Start.</li><li>Chrome fills member, khad, quantities and payment.</li><li>STATUS = <b>TESTED</b>. Nothing is saved on PACS.</li></ol></div></div>
+<div class="fig"><div class="xl"><table class="sh"><tr><th class="ty">SR</th><th class="ty">Admission No *</th><th class="ty">DAP</th><th class="ty">Urea</th><th class="ty">Member Name</th><th class="ap">Permit No</th><th class="rs">STATUS</th><th class="rs">MESSAGE</th></tr><tr><td>3</td><td>0000103</td><td></td><td>2</td><td></td><td class="a"></td><td class="e">ERROR</td><td>This member has no Loans account</td></tr><tr class=sel><td>4</td><td>0000104</td><td>1</td><td>2</td><td>Demo Member 4</td><td class="a"></td><td class="t">TESTED</td><td>Filled on PACS - NOT saved (Test)</td></tr></table></div></div>
+</div>
+
+<div class="bd" id="d-make"><div class="bdh"><img class="ic" src="../img/ribbon/make.png" alt=""><div><b>Make Permit</b><small>Ribbon · Run (selected row)</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Makes and <b>saves</b> the permit of the selected row only. Asks first in the "please check" window.</p>
+<div class="bdg"><div><h4>When to use</h4><ul><li>One member - e.g. a member who comes to the counter.</li><li>Making a row again after you fixed its ERROR.</li></ul></div>
+<div><h4>What happens</h4><ol><li>"Please check" window - click the green button (Enter does nothing).</li><li>The permit is saved on PACS.</li><li>STATUS = <b>DONE</b> + Permit No, Permit Amount, Items in Permit.</li></ol></div></div>
+<div class="note warn">On a row that is already <b>DONE</b> the window warns you in red and the button says <b>Make permit AGAIN</b>. Press it only if the member really needs a second permit.</div>
+<div class="fig"><div class="win"><div class="wt">Khad Sale – please check<span>✕</span></div><table class="wf"><tr><td>Godown</td><td><b>Demo Godown</b></td></tr><tr><td>Category</td><td><b>Fertilizer</b></td></tr><tr><td>Payment</td><td><b>Credit · Loans · KCC Kharif</b></td></tr><tr><td>Rows</td><td><b>2 (1 permit)</b></td></tr><tr><td>Login date</td><td><b>28-11-2026</b></td></tr><tr><td>Permit PDF</td><td><b>Yes</b></td></tr></table><div class="wn">Row 2 is already DONE (Permit No 25102). Making it again makes a SECOND permit.</div><div class="wb"><span class="bt fo">Go back</span><span class="bt rd">Make permit AGAIN</span></div></div></div>
+</div>
+
+<div class="bd" id="d-bulk"><div class="bdh"><img class="ic" src="../img/ribbon/bulk.png" alt=""><div><b>Make Bulk Permit</b><small>Ribbon · Run (selected row)</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Makes permits for <b>every row from the selected row down to the first empty row</b>. DONE rows are skipped. It checks the PACS stock first and asks in the "please check" window.</p>
+<div class="bdg"><div><h4>When to use</h4><ul><li>Many members in one go - the normal daily work.</li><li>Click the FIRST row you want, then press it.</li></ul></div>
+<div><h4>What happens</h4><ol><li>Stock is compared with what the rows need.</li><li>"Please check" window: rows, permits, login date.</li><li>Rows turn DONE one by one; a refused row = ERROR and the run goes on.</li></ol></div></div>
+<div class="note warn"><b>Stock short?</b> Permits are made only for the rows before the first row that has no stock. The rows after it wait, and their MESSAGE says why.</div>
+<div class="fig"><div class="win"><div class="wt">Khad Sale – please check<span>✕</span></div><table class="wf"><tr><td>Godown</td><td><b>Demo Godown</b></td></tr><tr><td>Category</td><td><b>Fertilizer</b></td></tr><tr><td>Payment</td><td><b>Credit · Loans · KCC Kharif</b></td></tr><tr><td>Rows</td><td><b>4 to 8 (5 permits)</b></td></tr><tr><td>Login date</td><td><b>28-11-2026</b></td></tr><tr><td>Permit PDF</td><td><b>Yes</b></td></tr></table><div class="wn">Urea stock is short from row 7. Rows 7 to 8 wait - their MESSAGE says why.</div><div class="wb"><span class="bt ">Go back</span><span class="bt pr">Make 3 permits</span></div></div></div>
+</div>
+
+<div class="bd" id="d-pause"><div class="bdh"><img class="ic" src="../img/ribbon/pause.png" alt=""><div><b>Pause / Resume</b><small>Ribbon · Run (selected row)</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>During a Bulk run: waits after the current permit. The button then says <b>Resume</b> - press it to go on from the next row.</p>
+<div class="bdg"><div><h4>When to use</h4><ul><li>You need Chrome or Excel for a moment (a phone call, check a member on PACS).</li></ul></div>
+<div><h4>Good to know</h4><ul><li>A permit being saved is never cut off.</li><li>While paused, do not change the rows below.</li></ul></div></div>
+<div class="fig"><div class="xl"><div class="rib" style="min-height:70px"><div class="grp"><div class="btns"><div class="b"><img class="ic" src="../img/ribbon/test.png" alt="">Test Permit</div><div class="b"><img class="ic" src="../img/ribbon/make.png" alt="">Make Permit</div><div class="b"><img class="ic" src="../img/ribbon/bulk.png" alt="">Make Bulk Permit</div><div class="b glow"><img class="ic" src="../img/ribbon/pause.png" alt="">Resume</div><div class="b"><img class="ic" src="../img/ribbon/stop.png" alt="">Stop</div><div class="b"><img class="ic" src="../img/ribbon/clear.png" alt="">Clear Sheet</div></div><div class="gl">Run (selected row)</div></div></div></div></div><p class="cap">Paused: the button now says <b>Resume</b>.</p>
+</div>
+
+<div class="bd" id="d-stop"><div class="bdh"><img class="ic" src="../img/ribbon/stop.png" alt=""><div><b>Stop</b><small>Ribbon · Run (selected row)</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Ends the run. The current permit finishes first (a save is never cut off), then the run stops.</p>
+<div class="bdg"><div><h4>When to use</h4><ul><li>You see wrong data in the rows below - stop, fix, run again.</li></ul></div>
+<div><h4>Next time</h4><ul><li>Select the first row that is not DONE and press Make Bulk Permit again. DONE rows are skipped anyway.</li></ul></div></div>
+</div>
+
+<div class="bd" id="d-clear"><div class="bdh"><img class="ic" src="../img/ribbon/clear.png" alt=""><div><b>Clear Sheet</b><small>Ribbon · Run (selected row)</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Deletes <b>all rows</b> of this sheet so you can start a new day. It asks first (<b>No</b> is the default) and keeps a copy of the file in <b>Desktop \ PACS Auto Files \ Backups</b>.</p>
+<div class="bdg"><div><h4>Stays</h4><ul><li>The headings and your khad columns (shown and hidden).</li><li>The lists from PACS and your choices at the top.</li><li>All other sheets.</li></ul></div>
+<div><h4>Good to know</h4><ul><li>Not possible while a run is going on.</li><li><kbd>Ctrl</kbd>+<kbd>Z</kbd> cannot bring the rows back - use the backup copy.</li><li>Look at SAVING / CHECK rows on PACS before you clear.</li></ul></div></div>
+<div class="fig"><div class="win"><div class="wt">PACS Auto<span>✕</span></div><div class="wh">Clear ALL rows of the Khad Sale sheet?</div><div class="wg" style="color:#1f2a37">4 rows will be deleted (2 DONE, 1 ERROR, 1 not run yet). This data will be lost.<br>A copy of the file is kept first in <b>Desktop \ PACS Auto Files \ Backups</b>.<br>The headings and your khad columns stay.</div><div class="wb"><span class="bt ">Yes</span><span class="bt fo">No</span></div></div></div>
+</div>
+
+<div class="gh">Khad Sale - ribbon</div>
+
+<div class="bd" id="d-getkhad"><div class="bdh"><img class="ic" src="../img/ribbon/get.png" alt=""><div><b>Get Khad Details</b><small>Ribbon · Khad Sale</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Reads your <b>godowns, categories and khad names</b> from PACS (read only - nothing is saved there) and adds a column for every khad.</p>
+<div class="bdg"><div><h4>When to use</h4><ul><li>The first time on this sheet.</li><li>PACS got a new khad or a new godown.</li></ul></div>
+<div><h4>What happens</h4><ul><li>Godown and Category lists at the top are filled.</li><li>New khad columns come after the old ones - never removed.</li></ul></div></div>
+<div class="fig"><div class="xl"><table class="sh"><tr><th class="ty">SR</th><th class="ty">Admission No *</th><th class="ty">DAP</th><th class="ty">Urea</th><th class="ty">NPK 12:32:16</th><th class="ty">Potash (MOP) <span class='new'>new</span></th><th class="ty">SSP Powder <span class='new'>new</span></th><th class="ty">Member Name</th><th class="rs">STATUS</th></tr><tr><td>1</td><td>0000101</td><td>2</td><td>3</td><td></td><td></td><td></td><td>Demo Member 1</td><td class="d">DONE</td></tr></table></div></div>
+</div>
+
+<div class="bd" id="d-khadcols"><div class="bdh"><img class="ic" src="../img/ribbon/columns.png" alt=""><div><b>Khad Columns</b><small>Ribbon · Khad Sale</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Choose <b>which khad columns you see</b> and their order - when too many khad push Member Name and STATUS off the screen.</p>
+<div class="bdg"><div><h4>In the window</h4><ul><li><b>Tick</b> = shown. <b>No tick</b> = hidden, kept far right - never deleted.</li><li><b>▲ ▼</b> = order. <b>Website order</b> = PACS's order.</li><li>Tick all / Untick all, then <b>OK</b>.</li></ul></div>
+<div><h4>Good to know</h4><ul><li>A khad with a quantity in a row that is not DONE cannot be unticked ("in use: row N").</li><li>Locked while a run is going on.</li><li>A paste into a hidden column warns you - press <kbd>Ctrl</kbd>+<kbd>Z</kbd>.</li></ul></div></div>
+<div class="fig"><div class="win wide"><div class="wt">Khad Columns<span>✕</span></div><table class="wl"><tr><th>Column order</th><th>Show</th><th>Khad</th><th>Stock</th><th></th></tr><tr><td>1</td><td>☑</td><td>DAP</td><td>412</td><td>▲ ▼</td></tr><tr><td>2</td><td>☑</td><td>Urea</td><td>1,250</td><td>▲ ▼</td></tr><tr><td>3</td><td>☑ <small style='color:#6b7280'>(in use: row 4)</small></td><td>NPK 12:32:16</td><td>96</td><td>▲ ▼</td></tr></table><div class="wg">Not ticked = hidden, kept far right in the sheet (2)</div><table class="wl"><tr><th></th><th>Show</th><th>Khad</th><th>Stock</th><th></th></tr><tr><td></td><td>☐</td><td>Potash (MOP)</td><td>0</td><td></td></tr><tr><td></td><td>☐</td><td>SSP Powder</td><td>140</td><td></td></tr></table><div class="wb"><span class="bt ">Tick all</span><span class="bt ">Untick all</span><span class="bt ">Website order</span><span class="bt ">Cancel</span><span class="bt pr">OK</span></div></div></div>
+</div>
+
+<div class="bd" id="d-match"><div class="bdh"><img class="ic" src="../img/ribbon/check.png" alt=""><div><b>Match khad stock with PACS</b><small>Ribbon · Khad Sale</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Compares what your <b>waiting rows need</b> with the PACS stock in the chosen Godown - <b>ENOUGH</b> or <b>SHORT</b> for every khad. Nothing is saved.</p>
+<div class="bdg"><div><h4>When to use</h4><ul><li>Before a big Bulk run.</li></ul></div>
+<div><h4>Short?</h4><ul><li>Bring the stock in on PACS first, or reduce the quantities - rows from the first short row will not get a permit.</li></ul></div></div>
+<div class="fig"><div class="win"><div class="wt">Check stock - Demo Godown<span>✕</span></div><div class="wh">Check stock<small>Godown Demo Godown · Fertilizer</small></div><table class="wl"><tr><th>Item</th><th class=r>Website</th><th class=r>Sheet needs</th><th>STATUS</th></tr><tr><td>DAP</td><td class=r>412</td><td class=r>4</td><td><span class='okc'>ENOUGH</span></td></tr><tr><td>Urea</td><td class=r>5</td><td class=r>9</td><td><span class='badc'>4 SHORT</span></td></tr><tr><td>NPK 12:32:16</td><td class=r>96</td><td class=r>1</td><td><span class='okc'>ENOUGH</span></td></tr></table><div class="wn"><b>1 item(s) short - those rows will not get a permit.</b></div><div class="wb"><span class="bt pr">Close</span></div></div></div>
+</div>
+
+<div class="bd" id="d-show"><div class="bdh"><img class="ic" src="../img/ribbon/show.png" alt=""><div><b>Show khad stock from PACS</b><small>Ribbon · Khad Sale</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Only <b>shows</b> the PACS stock of every khad in the Godown / Category chosen at the top. Zero stock is red.</p>
+<div class="fig"><div class="win"><div class="wt">Available stock - Demo Godown<span>✕</span></div><div class="wh">Available stock<small>Godown Demo Godown · Fertilizer</small></div><table class="wl"><tr><th>Item</th><th class=r>Stock</th></tr><tr><td>DAP</td><td class=r>412</td></tr><tr><td>Urea</td><td class=r>5</td></tr><tr><td>NPK 12:32:16</td><td class=r>96</td></tr><tr><td>Potash (MOP)</td><td class=r><span class='badc'>0</span></td></tr><tr><td>SSP Powder</td><td class=r>140</td></tr></table><div class="wg">5 items · 1 out of stock (0)</div><div class="wb"><span class="bt pr">Close</span></div></div></div>
+</div>
+
+<div class="gh">Settings at the top of the sheet - used for every row of a run</div>
+
+<div class="bd" id="d-godown"><div class="bdh"><i class="ic box">▾</i><div><b>Godown</b><small>Top of the sheet</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>The godown the khad goes out from. The list comes from <a href="#d-getkhad">Get Khad Details</a>.</p>
+<ul><li><b>One godown:</b> chosen for you.</li><li><b>Two or more:</b> empty when the file opens - choose it every time (never remembered, so you never sell from the wrong godown by mistake).</li><li>Khad Sale has its own Godown - Sale Voucher and Sale Cancel have their own.</li></ul>
+<div class="fig"><div class="ddfig"><small>Godown</small><div class="ddv">Demo Godown ▾</div><div class="ddl"><div class="ddi">- choose -</div><div class="ddi on">Demo Godown</div><div class="ddi">Demo Sub Godown</div></div><div class=ddn>2 godowns: choose one every time the file opens</div></div></div>
+</div>
+
+<div class="bd" id="d-category"><div class="bdh"><i class="ic box">▾</i><div><b>Category</b><small>Top of the sheet</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>The khad category, e.g. <b>Fertilizer</b>. Choosing it adds a column for every khad of this Godown + Category (columns are never removed). Remembered on this PC.</p>
+<div class="fig"><div class="ddfig"><small>Category</small><div class="ddv">Fertilizer ▾</div><div class="ddl"><div class="ddi on">Fertilizer</div><div class="ddi">Seeds</div><div class="ddi">Pesticide</div></div></div></div>
+</div>
+
+<div class="bd" id="d-payment"><div class="bdh"><i class="ic box">▾</i><div><b>Payment</b><small>Top of the sheet</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p><b>Credit</b> = the permit goes on the member's account (choose Account + Loan). <b>Cash</b> = paid in cash - Account and Loan are not used. Remembered on this PC.</p>
+<div class="fig"><div class="ddfig"><small>Payment</small><div class="ddv">Credit ▾</div><div class="ddl"><div class="ddi on">Credit</div><div class="ddi">Cash</div></div></div></div>
+</div>
+
+<div class="bd" id="d-account"><div class="bdh"><i class="ic box">▾</i><div><b>Account</b><small>Top of the sheet · only for Credit</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>The PACS account type for a Credit permit - usually <b>Loans</b>. The same names as on the PACS Sales page.</p>
+<div class="fig"><div class="ddfig"><small>Account</small><div class="ddv">Loans ▾</div><div class="ddl"><div class="ddi on">Loans</div><div class="ddi">Accounts</div><div class="ddi">SavingAccount</div><div class="ddi">Sundry Debitor</div><div class="ddi">CardPayment</div></div><div class=ddn>only for Credit - usually Loans</div></div></div>
+</div>
+
+<div class="bd" id="d-loan"><div class="bdh"><i class="ic box">▾</i><div><b>Loan</b><small>Top of the sheet · only for Credit</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Which loan the permit goes on, e.g. <b>KCC Kharif</b>. Pick from the list or <b>Type another...</b></p>
+<ul><li>Member with <b>one</b> loan account: that one is used.</li><li>Several loans: the one you chose here.</li><li><b>Two accounts of the same loan:</b> the first one is used and MESSAGE says so.</li><li>No account of this loan: the row is ERROR "This member has no Loans account".</li></ul>
+<div class="fig"><div class="ddfig"><small>Loan</small><div class="ddv">KCC Kharif ▾</div><div class="ddl"><div class="ddi on">KCC Kharif</div><div class="ddi">KCC Rabi</div><div class="ddi">Type another...</div></div><div class=ddn>list from PACS - or type the name</div></div></div>
+</div>
+
+<div class="bd" id="d-pdf"><div class="bdh"><i class="ic box">☑</i><div><b>Save permit PDF</b><small>Top of the sheet · tick</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Tick = after every permit its PDF is saved on your Desktop, one folder per day. No tick = no PDF (a little faster). Remembered on this PC.</p>
+<div class="fig"><div class="path">📁 Desktop › PACS Auto Files › Permits › 28-11-2026 › <b>Permit_25101_0000101_Demo Member 1.pdf</b></div></div>
+</div>
+
+<div class="bd" id="d-tiles"><div class="bdh"><img class="ic" src="../img/ribbon/rupee.png" alt=""><div><b>Totals</b><small>Top of the sheet, right side</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Change by themselves while you work: <b>₹ Total</b> = amount of the permits made (DONE) · <b>DONE</b> = permits saved · <b>Errors</b> = rows with ERROR · <b>Waiting</b> = rows not run yet.</p>
+<div class="fig"><div class="band" style="padding-left:8px"><div class="tiles" style="margin:0"><span class="tl money">₹ Total 3,915.50</span><span class="tl dn">✔ DONE 2</span><span class="tl er">✖ Errors 1</span><span class="tl wt">⏳ Waiting 1</span></div></div></div>
+</div>
+
+<div class="gh">Login, Modules, Help - the same on every sheet</div>
+
+<div class="bd" id="d-login"><div class="bdh"><img class="ic" src="../img/ribbon/login.png" alt=""><div><b>Login to PACS</b><small>Ribbon · PACS Login</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Opens Chrome and logs in to the PACS website - you type only the captcha. Make Permit / Test also log in by themselves when needed.</p>
+</div>
+
+<div class="bd" id="d-details"><div class="bdh"><img class="ic" src="../img/ribbon/details.png" alt=""><div><b>PACS Details</b><small>Ribbon · PACS Login</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Your PACS ERP website User ID and password - kept encrypted on this PC, never in the Excel file.</p>
+</div>
+
+<div class="bd" id="d-website"><div class="bdh"><i class="ic box">▾</i><div><b>Website</b><small>Ribbon · PACS Login</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Your PACS server, e.g. <b>mp4.uniteerp.in</b>. Choose the one you use in your own Chrome.</p>
+</div>
+
+<div class="bd" id="d-date"><div class="bdh"><i class="ic box">▾</i><div><b>Date (login date)</b><small>Ribbon · PACS Login</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>PACS uses this date as the <b>permit date</b>. Type dd-mm-yyyy; empty = today. Changing it logs in to PACS again (captcha). A back date is shown in the "please check" window.</p>
+</div>
+
+<div class="bd" id="d-dot"><div class="bdh"><img class="ic" src="../img/ribbon/dot_green.png" alt=""><div><b>Logged in / Logged out</b><small>Ribbon · PACS Login</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Green = Chrome is logged in to PACS. Red = not logged in - click it to log in.</p>
+<div class="fig"><div class="vbox" style="font-size:13px;gap:6px"><span class="ok"><img class="ic" src="../img/ribbon/dot_green.png" alt=""> Logged in</span><span style="color:#C0262D"><img class="ic" src="../img/ribbon/dot_red.png" alt=""> Logged out</span></div></div>
+</div>
+
+<div class="bd" id="d-update"><div class="bdh"><img class="ic" src="../img/ribbon/update.png" alt=""><div><b>Check for update</b><small>Ribbon · Update</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Looks for a new version of PACS Auto now. PACS Auto also looks by itself when the file opens and every 6 hours.</p>
+</div>
+
+<div class="bd" id="d-modules"><div class="bdh"><img class="ic" src="../img/ribbon/modules.png" alt=""><div><b>Modules</b><small>Ribbon · Modules</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>Opens any PACS Auto sheet - e.g. <a href="sale-voucher.html">Sale Voucher</a> after your permits.</p>
+</div>
+
+<div class="bd" id="d-help"><div class="bdh"><img class="ic" src="../img/ribbon/help.png" alt=""><div><b>Help</b><small>Ribbon · Help</small></div><a class="up" href="#screen">↑ picture</a></div>
+<p>This guide (English / Hindi), all guides, and <b>Chat with support</b> - send a question or a problem with a screenshot.</p>
+<div class="fig"><div class="menu2"><div class="mh">THIS SHEET: KHAD SALE</div><div><img class="ic" src="../img/ribbon/help_book.png" alt="">Khad Sale guide - English</div><div><img class="ic" src="../img/ribbon/help_book.png" alt="">Khad Sale guide - Hindi</div><hr><div><img class="ic" src="../img/ribbon/help_books.png" alt="">All guides (every module)</div><hr><div><img class="ic" src="../img/ribbon/help_chat.png" alt="">Chat with support / Report a problem</div></div></div>
+</div>
+<h2 id="columns">5. The columns</h2>
+<table class="tbl">
+<tr><th>Column</th><th>What goes in</th></tr>
+<tr><td>SR</td><td>Your own serial number (not sent to PACS).</td></tr>
+<tr><td>Admission No *</td><td>The member's Admission No exactly as on PACS - <b>keep the leading zeros</b> (0000101).</td></tr>
+<tr><td>Khad columns (DAP, Urea...)</td><td>The quantity of each khad. Leave it empty if the member does not take that khad. The columns come from PACS (<a href="#d-category">Category</a>).</td></tr>
+<tr><td>Member Name</td><td>Leave it empty - the app fills it from PACS. If you type it, it must match the name on PACS, otherwise no permit is made (a safety check for a wrong Admission No).</td></tr>
+<tr><td>Remark</td><td>Your own note (not sent to PACS).</td></tr>
+<tr><td>Village, Permit No, Permit Amount, Items in Permit</td><td>Filled by the app after the permit is saved.</td></tr>
+</table>
+
+<h2 id="steps">6. Step by step</h2>
+<div class="flow"><span class="fs"><b>1</b>Type rows</span><span class="ar">→</span><span class="fs"><b>2</b>Match stock</span><span class="ar">→</span><span class="fs"><b>3</b>Test Permit</span><span class="ar">→</span><span class="fs"><b>4</b>Make Bulk Permit</span><span class="ar">→</span><span class="fs"><b>5</b>please check → Start</span><span class="ar">→</span><span class="fs"><b>6</b>DONE</span><span class="ar">→</span><span class="fs"><b>7</b>Sale Voucher</span></div>
+<ol class="steps">
+<li><b>Choose the settings at the top</b> - <a href="#d-godown">Godown</a>, <a href="#d-category">Category</a>, <a href="#d-payment">Payment</a>, <a href="#d-account">Account</a>, <a href="#d-loan">Loan</a>.</li>
+<li><b>Type the rows.</b> One member per row: Admission No and the quantities. Pasting from your own register: check that each number lands under the right khad.</li>
+<li><b>Check the stock</b> - <a class="btn" href="#d-match">Match khad stock with PACS</a>.</li>
+<li><b>Test first</b> - click a row, <a class="btn" href="#d-test">Test Permit</a>.</li>
+<li><b>Make the permits</b> - click the first row, <a class="btn" href="#d-bulk">Make Bulk Permit</a>, read the "please check" window, click the green button.</li>
+<li><b>Watch</b> each row turn DONE. Need a break? <a class="btn" href="#d-pause">Pause</a> / <a class="btn" href="#d-stop">Stop</a>.</li>
+<li><b>Next:</b> the vouchers of these permits in <a href="sale-voucher.html">Sale Voucher</a>.</li>
+</ol>
+<h2 id="status">7. STATUS and common messages</h2>
+<table class="tbl">
+<tr><th>STATUS</th><th>Meaning</th><th>What to do</th></tr>
+<tr><td class="d">DONE</td><td>Permit saved on PACS.</td><td>Nothing. The next run skips this row.</td></tr>
+<tr><td class="e">ERROR</td><td>Not saved. MESSAGE says why.</td><td>Fix the reason; the next run tries the row again.</td></tr>
+<tr><td class="t">TESTED</td><td>Test only - nothing saved.</td><td>Run Make Permit when ready.</td></tr>
+<tr><td class="c">SAVING / CHECK</td><td>Save was pressed but the result was not clear (e.g. PACS logged out at that moment).</td><td>Look for this member's permit on PACS. Made: type <b>DONE</b> in STATUS. Not made: clear STATUS and run again.</td></tr>
+</table>
+<table class="tbl">
+<tr><th>MESSAGE</th><th>What to do</th></tr>
+<tr><td>This member has no Loans account</td><td>On PACS the member has no account of the chosen loan. Open the loan account on PACS, or sell on Cash.</td></tr>
+<tr><td>The website did not send this member's Loans account list</td><td>PACS was slow. Run the row again.</td></tr>
+<tr><td>... 2 KCC Kharif accounts, the first one was used (Loan No ...)</td><td>Only information - the permit is DONE on the first account.</td></tr>
+<tr><td>Credit Amount Cannot be Greater Than Loan Eligible Amount</td><td>PACS refused: the member's loan limit is less than the permit. Reduce the quantity or check his limit on PACS. Nothing was saved.</td></tr>
+<tr><td>Quantity in a hidden khad column</td><td>Tick that khad in <a href="#d-khadcols">Khad Columns</a>, or clear the quantity.</td></tr>
+<tr><td>PACS logged out</td><td>Press the button again - the app logs in again (captcha).</td></tr>
+</table>
+
+<h2 id="know">8. Good to know</h2>
+<ul>
+<li>Your Excel file is saved during the run, so a DONE permit is never lost and never made twice.</li>
+<li>Before every Save the app checks that PACS is still logged in to <b>your</b> society.</li>
+<li>If PACS refuses a Save, the row is ERROR and a Bulk run goes on with the next member.</li>
+<li>Video for this chapter: coming soon.</li>
+</ul>
+<div class="pager"><a href="getting-started.html"><small>← Previous</small>Getting started</a><a href="sale-voucher.html" style="text-align:right"><small>Next →</small>Sale Voucher</a></div><p class="foot">PACS Auto Help · pictures use invented demo names only · a question the guide does not answer: Help → Chat with support in the app.</p></main><aside class="toc"><b>On this page</b><a href="#what">1. What this module does</a><a href="#before">2. Before you start</a><a href="#screen">3. The screen</a><a href="#buttons">4. Every button and option</a><a href="#columns">5. The columns</a><a href="#steps">6. Step by step</a><a href="#status">7. STATUS and common messages</a><a href="#know">8. Good to know</a></aside></div><script src="../site.js?v=8e6ede04"></script></body></html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html><html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sale Voucher - PACS Auto मदद</title><link rel="stylesheet" href="../site.css?v=8e6ede04"><link rel="icon" href="../favicon.svg"></head><body class="hi" data-lang="hi" data-root="../" data-v="8e6ede04"><div class="top"><button class="menu" aria-label="menu">☰</button><a class="logo" href="../hi/index.html"><i></i>PACS Auto मदद</a><div class="srch"><input type="search" placeholder="मदद में खोजें..." aria-label="search"><div class="res" data-none="कुछ नहीं मिला - दूसरा शब्द लिखें।"></div></div><div class="lt"><a href="../en/sale-voucher.html">English</a><a href="#" class=on>हिंदी</a></div></div><div class="wrap"><nav class="side"><a href="../hi/getting-started.html"><img class="mi" width="20" height="20" src="../img/ribbon/help_book.png" alt="">Getting started</a><div class="g">Khad</div><a href="../hi/khad-sale.html"><img class="mi" src="../img/ribbon/mod_khad_sale.png" width="20" height="20" alt="">Khad Sale</a><a href="../hi/sale-voucher.html" class=on><img class="mi" src="../img/ribbon/mod_sale_voucher.png" width="20" height="20" alt="">Sale Voucher</a><a href="../hi/sale-cancel.html"><img class="mi" src="../img/ribbon/mod_sale_cancel.png" width="20" height="20" alt="">Sale Cancel</a><span><img class="mi" src="../img/ribbon/mod_sale_return.png" width="20" height="20" alt="">Sale Return<em>जल्द</em></span><div class="g">Members & Deposits</div><span><img class="mi" src="../img/ribbon/mod_enroll_member.png" width="20" height="20" alt="">Enroll Member<em>जल्द</em></span><span><img class="mi" src="../img/ribbon/mod_share_deposit.png" width="20" height="20" alt="">Share Deposit<em>जल्द</em></span><span><img class="mi" src="../img/ribbon/mod_share_withdrawal.png" width="20" height="20" alt="">Share Withdrawal<em>जल्द</em></span><span><img class="mi" src="../img/ribbon/mod_saving_deposit.png" width="20" height="20" alt="">Saving Deposit<em>जल्द</em></span><div class="g">Loans</div><span><img class="mi" src="../img/ribbon/mod_register_land.png" width="20" height="20" alt="">Register Land<em>जल्द</em></span><span><img class="mi" src="../img/ribbon/mod_loan_disbursement.png" width="20" height="20" alt="">Loan Disbursement<em>जल्द</em></span><span><img class="mi" src="../img/ribbon/mod_loan_collection.png" width="20" height="20" alt="">Loan Collection<em>जल्द</em></span><div class="g">Vouchers (FAS)</div><span><img class="mi" src="../img/ribbon/mod_cash_payment.png" width="20" height="20" alt="">Cash Payment<em>जल्द</em></span><span><img class="mi" src="../img/ribbon/mod_cash_receipt.png" width="20" height="20" alt="">Cash Receipt<em>जल्द</em></span><span><img class="mi" src="../img/ribbon/mod_other_transfer.png" width="20" height="20" alt="">Other Transfer<em>जल्द</em></span><div class="g">PDS</div><span><img class="mi" src="../img/ribbon/mod_pds_purchase.png" width="20" height="20" alt="">PDS Purchase<em>जल्द</em></span><span><img class="mi" src="../img/ribbon/mod_pds_sale.png" width="20" height="20" alt="">PDS Sale<em>जल्द</em></span><span><img class="mi" src="../img/ribbon/mod_pds_voucher.png" width="20" height="20" alt="">PDS Voucher<em>जल्द</em></span><div class="g">Help</div><span><img class="mi" width="20" height="20" src="../img/ribbon/help_chat.png" alt="">Common messages (FAQ)<em>जल्द</em></span></nav><main class="main"><h1>Sale Voucher</h1>
+<p class="lead">PACS पर जिस परमिट का सेल वाउचर अभी बाकी है, उन सबका सेल वाउचर बनाता है - हर Save में एक परमिट, सबसे पुराना पहले। इस शीट में आप कुछ नहीं लिखते: यह ऐप के बनाए वाउचरों का लॉग है।</p>
+
+<h2 id="what">1. यह मॉड्यूल क्या करता है</h2>
+<p>यह PACS पेज <b>Merchandise → Sale Voucher</b> पर काम करता है। PACS से वाउचर के लिए रुके परमिटों की सूची पढ़ता है (आपके Godown और Payment के लिए), और हर परमिट के लिए - सबसे पुराना पहले - उसे टिक करता है, वाउचर सेव करता है और जाँचता है कि परमिट रुकी सूची से निकल गया। हर वाउचर की शीट में एक row बनती है।</p>
+<div class="note warn">PACS Auto सेल वाउचर सिर्फ़ <b>तैयार</b> (सेव) करता है। वाउचर <b>पोस्ट</b> करना हमेशा आप PACS पर करते हैं।</div>
+
+<h2 id="before">2. शुरू करने से पहले</h2>
+<ul>
+<li>PACS में लॉगिन - हरा <b>Logged in</b> (देखें <a href="getting-started.html#d-login">शुरुआत करें</a>)।</li>
+<li>परमिट बन चुके हों (जैसे <a href="khad-sale.html">Khad Sale</a> से), या वापसी Sale Return से।</li>
+</ul>
+
+<h2 id="screen">3. स्क्रीन</h2>
+<div class="fig"><div class="xl hotfig"><div class="tabsbar"><span>Home</span><span>Khad Sale</span><span class=on>Sale Voucher</span><span>Sale Cancel</span><span>Sale Return</span><span>Enroll Member</span><span>...</span></div><div class="rib"><div class="grp"><div class="btns"><a class="hot b" href="#d-update" title="Check for update - see details"><img class="ic" src="../img/ribbon/update.png" alt="">Check for update</a></div><div class="gl">Update</div></div><div class="grp"><div class="btns"><a class="hot b" href="#d-details" title="PACS Details - see details"><img class="ic" src="../img/ribbon/details.png" alt="">PACS Details</a><a class="hot b" href="#d-login" title="Login to PACS - see details"><img class="ic" src="../img/ribbon/login.png" alt="">Login to PACS</a><div class="vbox"><a class="hot dd" href="#d-website">mp4.uniteerp.in ▾</a><a class="hot dd" href="#d-date">28-11-2026</a><a class="hot ok" href="#d-dot"><img class="ic" src="../img/ribbon/dot_green.png" alt="">Logged in</a></div></div><div class="gl">PACS Login</div></div><div class="grp"><div class="btns"><a class="hot b" href="#d-modules" title="Modules ▾ - see details"><img class="ic" src="../img/ribbon/modules.png" alt="">Modules ▾</a></div><div class="gl">Modules</div></div><div class="grp"><div class="btns"><a class="hot b" href="#d-pause" title="Pause - see details"><img class="ic" src="../img/ribbon/pause.png" alt="">Pause</a><a class="hot b" href="#d-stop" title="Stop - see details"><img class="ic" src="../img/ribbon/stop.png" alt="">Stop</a><a class="hot b" href="#d-clear" title="Clear Sheet - see details"><img class="ic" src="../img/ribbon/clear.png" alt="">Clear Sheet</a></div><div class="gl">Run (selected row)</div></div><div class="grp"><div class="btns"><a class="hot b" href="#d-vcheck" title="Check pending voucher - see details"><img class="ic" src="../img/ribbon/show.png" alt="">Check pending voucher</a><a class="hot b" href="#d-vmake" title="Make voucher - see details"><img class="ic" src="../img/ribbon/make.png" alt="">Make voucher</a></div><div class="gl">Sale Voucher</div></div><div class="grp"><div class="btns"><a class="hot b" href="#d-help" title="Help ▾ - see details"><img class="ic" src="../img/ribbon/help.png" alt="">Help ▾</a></div><div class="gl">Help</div></div></div><div class="band"><a class="hot bx" href="#d-vactivity" title="Activity - see details"><small>Activity</small><span>Sales ▾</span></a><a class="hot bx" href="#d-vgodown" title="Godown - see details"><small>Godown</small><span>Demo Godown ▾</span></a><a class="hot bx" href="#d-vpayment" title="Payment - see details"><small>Payment</small><span>Credit ▾</span></a><a class="hot tiles" href="#d-vtiles" title="Totals - see details"><span class="tl money">₹ Saved 3,915.50</span><span class="tl dn">✔ DONE 2</span><span class="tl er">✖ Errors 1</span><span class="tl wt">⏳ Waiting 3 · ₹ 5,212.00</span></a></div><a class="hot sheetlink" href="#columns" title="The sheet - see details"><table class="sh"><tr><th class="ap">Activity</th><th class="ap">Permit No</th><th class="ap">Permit Date</th><th class="ap">Godown</th><th class="ap">Payment</th><th class="ap">Amount</th><th class="ap">Batch ID</th><th class="ap">Saved On</th><th class="rs">STATUS</th><th class="rs">MESSAGE</th></tr><tr><td class="a">Sales</td><td class="a">25101</td><td class="a">28-11-2026</td><td class="a">Demo Godown</td><td class="a">Credit</td><td class="a">3,030.50</td><td class="a">1187</td><td class="a">28-11-2026 11:42</td><td class="d">DONE</td><td>Sale voucher saved</td></tr><tr><td class="a">Sales</td><td class="a">25102</td><td class="a">28-11-2026</td><td class="a">Demo Godown</td><td class="a">Credit</td><td class="a">885.00</td><td class="a">1188</td><td class="a">28-11-2026 11:42</td><td class="d">DONE</td><td>Sale voucher saved</td></tr><tr><td class="a">Sales</td><td class="a">25103</td><td class="a">28-11-2026</td><td class="a">Demo Godown</td><td class="a">Credit</td><td class="a">1,770.00</td><td class="a">1189</td><td class="a">28-11-2026 11:43</td><td class="c">CHECK</td><td>Save was pressed but the permits are still pending. Website said: -</td></tr></table></a></div></div>
+<div class="hint">👆 तस्वीर में किसी भी बटन या बॉक्स पर क्लिक करें - उसकी पूरी जानकारी पर पहुँचेंगे।</div>
+<p class="cap">तस्वीर: डेमो डेटा (काल्पनिक नंबर) के साथ Sale Voucher शीट। हर बटन और बॉक्स एक लिंक है।</p>
+<p><b>या सूची से चुनें</b> - इस शीट के सभी बटन और विकल्प:</p>
+<table class="blist">
+<tr class="grow"><td></td><td colspan="3">Sale Voucher - रिबन</td></tr>
+<tr><td><img class="ic" src="../img/ribbon/show.png" alt=""></td><td><a href="#d-vcheck"><b>Check pending voucher</b></a></td><td>वाउचर के लिए रुके परमिट (सिर्फ़ देखना)</td><td><a class="go" href="#d-vcheck">जानकारी →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/make.png" alt=""></td><td><a href="#d-vmake"><b>Make voucher</b></a></td><td>हर रुके परमिट का वाउचर</td><td><a class="go" href="#d-vmake">जानकारी →</a></td></tr>
+<tr class="grow"><td></td><td colspan="3">Run (selected row) - रिबन</td></tr>
+<tr><td><img class="ic" src="../img/ribbon/pause.png" alt=""></td><td><a href="#d-pause"><b>Pause / Resume</b></a></td><td>चल रहे वाउचर के बाद रुकता है</td><td><a class="go" href="#d-pause">जानकारी →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/stop.png" alt=""></td><td><a href="#d-stop"><b>Stop</b></a></td><td>चल रहा वाउचर पूरा, फिर बंद</td><td><a class="go" href="#d-stop">जानकारी →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/clear.png" alt=""></td><td><a href="#d-clear"><b>Clear Sheet</b></a></td><td>लॉग की rows मिटाता है (पहले बैकअप)</td><td><a class="go" href="#d-clear">जानकारी →</a></td></tr>
+<tr class="grow"><td></td><td colspan="3">शीट के ऊपर</td></tr>
+<tr><td><i class="ic box">▾</i></td><td><a href="#d-vactivity"><b>Activity</b></a></td><td>Sales या Sale Returns</td><td><a class="go" href="#d-vactivity">जानकारी →</a></td></tr>
+<tr><td><i class="ic box">▾</i></td><td><a href="#d-vgodown"><b>Godown</b></a></td><td>परमिटों का गोदाम</td><td><a class="go" href="#d-vgodown">जानकारी →</a></td></tr>
+<tr><td><i class="ic box">▾</i></td><td><a href="#d-vpayment"><b>Payment</b></a></td><td>Cash, Credit या Cash and Credit</td><td><a class="go" href="#d-vpayment">जानकारी →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/rupee.png" alt=""></td><td><a href="#d-vtiles"><b>Totals</b></a></td><td>₹ Saved, DONE, Errors, PACS पर Waiting</td><td><a class="go" href="#d-vtiles">जानकारी →</a></td></tr>
+<tr class="grow"><td></td><td colspan="3">हर शीट</td></tr>
+<tr><td><img class="ic" src="../img/ribbon/login.png" alt=""></td><td><a href="#d-login"><b>Login to PACS</b></a></td><td>Chrome + captcha</td><td><a class="go" href="#d-login">जानकारी →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/details.png" alt=""></td><td><a href="#d-details"><b>PACS Details</b></a></td><td>आपका PACS User ID + password</td><td><a class="go" href="#d-details">जानकारी →</a></td></tr>
+<tr><td><i class="ic box">▾</i></td><td><a href="#d-website"><b>Website</b></a></td><td>आपका PACS सर्वर</td><td><a class="go" href="#d-website">जानकारी →</a></td></tr>
+<tr><td><i class="ic box">▾</i></td><td><a href="#d-date"><b>Date</b></a></td><td>वाउचर की तारीख (खाली = आज)</td><td><a class="go" href="#d-date">जानकारी →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/dot_green.png" alt=""></td><td><a href="#d-dot"><b>Logged in / Logged out</b></a></td><td>हरा / लाल बिंदु</td><td><a class="go" href="#d-dot">जानकारी →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/update.png" alt=""></td><td><a href="#d-update"><b>Check for update</b></a></td><td>अभी नया वर्ज़न</td><td><a class="go" href="#d-update">जानकारी →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/modules.png" alt=""></td><td><a href="#d-modules"><b>Modules</b></a></td><td>कोई भी शीट खोलें</td><td><a class="go" href="#d-modules">जानकारी →</a></td></tr>
+<tr><td><img class="ic" src="../img/ribbon/help.png" alt=""></td><td><a href="#d-help"><b>Help</b></a></td><td>गाइड + सपोर्ट से चैट</td><td><a class="go" href="#d-help">जानकारी →</a></td></tr>
+</table>
+
+<h2 id="buttons">4. हर बटन और विकल्प</h2>
+<p>हर कार्ड बताता है कि बटन या विकल्प क्या करता है, कब इस्तेमाल करें और क्या दिखेगा। <a href="#screen">↑ तस्वीर पर वापस</a></p>
+
+<div class="gh">Sale Voucher - रिबन</div>
+
+<div class="bd" id="d-vcheck"><div class="bdh"><img class="ic" src="../img/ribbon/show.png" alt=""><div><b>Check pending voucher</b><small>रिबन · Sale Voucher</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p>चुनी Activity, Godown और Payment के वे परमिट दिखाता है जिनका <b>सेल वाउचर PACS पर अभी बाकी है</b> - Permit No, तारीख और राशि, सबसे पुराना पहले। <b>सिर्फ़ देखना</b> - कुछ सेव नहीं होता।</p>
+<div class="bdg"><div><h4>कब इस्तेमाल करें</h4><ul><li>Make voucher से पहले - कितने परमिट और कितनी राशि बनेगी देखने के लिए।</li><li>CHECK row के बाद - ऐप को फिर से देखने देने के लिए।</li></ul></div>
+<div><h4>क्या होता है</h4><ul><li>विंडो परमिट और उनका कुल दिखाती है।</li><li>शीट के ऊपर <b>Waiting</b> में संख्या + राशि आ जाती है।</li><li>जिस CHECK / SAVING row का परमिट अब रुका नहीं है, वह खुद <b>DONE</b> हो जाती है।</li></ul></div></div>
+<div class="fig"><div class="win"><div class="wt">Permits waiting for a sale voucher - Demo Godown<span>✕</span></div><div class="wh">Permits waiting for a sale voucher<small>Godown Demo Godown · Credit</small></div><table class="wl"><tr><th>Permit No</th><th>Permit Date</th><th class=r>Amount</th></tr><tr><td>25103</td><td>27-11-2026</td><td class=r>1,770.00</td></tr><tr><td>25104</td><td>28-11-2026</td><td class=r>2,557.00</td></tr><tr><td>25105</td><td>28-11-2026</td><td class=r>885.00</td></tr></table><div class="wg">3 permit(s) · total 5,212.00 · one Save per permit, oldest first</div><div class="wb"><span class="bt pr">Close</span></div></div></div>
+</div>
+
+<div class="bd" id="d-vmake"><div class="bdh"><img class="ic" src="../img/ribbon/make.png" alt=""><div><b>Make voucher</b><small>रिबन · Sale Voucher</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p><b>हर रुके परमिट</b> का सेल वाउचर एक-एक करके बनाता है, सबसे पुराना पहले - <b>हर Save में एक परमिट</b>। PACS की सूची फिर पढ़ता है और पहले "please check" विंडो में पूछता है।</p>
+<div class="bdg"><div><h4>क्या होता है</h4><ol><li>"Please check" विंडो: Godown, Activity, Payment, परमिट, Saves, लॉगिन तारीख, batch। फोकस <b>Cancel</b> पर होता है - हरे बटन पर <b>क्लिक</b> करें (जैसे "Make 3 sale vouchers")।</li><li>हर सेव परमिट की <b>DONE</b> row बनती है, राशि, Batch ID और समय के साथ।</li><li>अंत में: "Sale vouchers made for 3 of 3 permit(s)."</li></ol></div>
+<div><h4>ध्यान रखें</h4><ul><li>चुना सेल मायने नहीं रखता - यह बटन PACS की रुकी सूची पर काम करता है, शीट की rows पर नहीं।</li><li>मना हुआ Save (ERROR) या अस्पष्ट (CHECK) <b>रन रोक देता है</b> - संदेश कारण बताता है। ठीक करके फिर Make voucher दबाएँ: परमिट अभी भी PACS की सूची में है।</li></ul></div></div>
+<div class="fig"><div class="win"><div class="wt">Sale voucher – please check<span>✕</span></div><table class="wf"><tr><td>Godown</td><td><b>Demo Godown</b></td></tr><tr><td>Activity</td><td><b>Sales</b></td></tr><tr><td>Payment</td><td><b>Credit</b></td></tr><tr><td>Permits</td><td><b>3 (Permit No 25103 to 25105)</b></td></tr><tr><td>Saves</td><td><b>3 (one permit per Save, oldest first)</b></td></tr><tr><td>Login date</td><td><b>28-11-2026</b></td></tr><tr><td>Batch</td><td><b>A new batch is generated for every Save</b></td></tr></table><div class="wy">A sale voucher is made for each permit, one by one, oldest first. Saved vouchers are final on the PACS website. (Voucher posting is not done here.)</div><div class="wb"><span class="bt fo">Cancel</span><span class="bt pr">Make 3 sale vouchers</span></div></div></div>
+<div class="note"><b>Batch:</b> <b>Credit</b> और <b>Cash and Credit</b> के लिए PACS को batch चाहिए - ऐप <b>हर Save के लिए नया batch</b> बनाता है (PACS की Batch Creation विंडो का Generate बटन) और Batch ID row में लिखता है। <b>Cash</b> में batch नहीं लगता।</div>
+<div class="fig"><div class="xl"><table class="sh"><tr><th class="ap">Permit No</th><th class="ap">Payment</th><th class="ap">Amount</th><th class="ap">Batch ID</th><th class="rs">STATUS</th></tr><tr><td class="a">25104</td><td class="a">Credit</td><td class="a">2,557.00</td><td class="a">1190</td><td class="d">DONE</td></tr><tr><td class="a">25105</td><td class="a">Cash</td><td class="a">885.00</td><td class="a"></td><td class="d">DONE</td></tr></table></div></div>
+</div>
+
+<div class="gh">Run (selected row) - रिबन</div>
+<p>इस शीट पर Test / Make row बटन नहीं हैं - सिर्फ़ ये तीन।</p>
+
+<div class="bd" id="d-pause"><div class="bdh"><img class="ic" src="../img/ribbon/pause.png" alt=""><div><b>Pause / Resume</b><small>रिबन · Run (selected row)</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p>Make voucher के दौरान: चल रहे वाउचर के बाद (दो Save के बीच) रुकता है। तब बटन पर <b>Resume</b> लिखा होता है - आगे चलाने के लिए दबाएँ। रुकने के बाद ऐप PACS की सूची फिर पढ़ता है।</p>
+</div>
+
+<div class="bd" id="d-stop"><div class="bdh"><img class="ic" src="../img/ribbon/stop.png" alt=""><div><b>Stop</b><small>रिबन · Run (selected row)</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p>चल रहा वाउचर पूरा होता है (Save कभी बीच में नहीं कटता), फिर रन बंद - संदेश "Stopped by you." से शुरू होता है। जो परमिट नहीं बने वे अगले Make voucher के लिए PACS की सूची में रहते हैं।</p>
+</div>
+
+<div class="bd" id="d-clear"><div class="bdh"><img class="ic" src="../img/ribbon/clear.png" alt=""><div><b>Clear Sheet</b><small>रिबन · Run (selected row)</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p>लॉग लंबा हो जाए तो इस शीट की सारी rows मिटाता है। पहले पूछता है (<b>No</b> पहले से चुना) और फ़ाइल की कॉपी <b>Desktop \ PACS Auto Files \ Backups</b> में रखता है। PACS पर वाउचरों को कुछ नहीं होता।</p>
+<div class="bdg"><div><h4>ध्यान रखें</h4><ul><li>रन चलते समय नहीं होता।</li><li><kbd>Ctrl</kbd>+<kbd>Z</kbd> से rows वापस नहीं आतीं - कॉपी इस्तेमाल करें।</li></ul></div>
+<div><h4>मिटाने से पहले</h4><ul><li>एक बार Check pending voucher दबाएँ - जो CHECK rows सेव हो चुकी थीं वे DONE हो जाती हैं।</li></ul></div></div>
+<div class="fig"><div class="win"><div class="wt">PACS Auto<span>✕</span></div><div class="wh">Clear ALL rows of the Sale Voucher sheet?</div><div class="wg" style="color:#1f2a37">5 rows will be deleted. This data will be lost.<br>A copy of the file is kept first in <b>Desktop \ PACS Auto Files \ Backups</b>.</div><div class="wb"><span class="bt ">Yes</span><span class="bt fo">No</span></div></div></div>
+</div>
+
+<div class="gh">शीट के ऊपर की सेटिंग - पूरे रन के लिए</div>
+
+<div class="bd" id="d-vactivity"><div class="bdh"><i class="ic box">▾</i><div><b>Activity</b><small>शीट के ऊपर</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p><b>Sales</b> (पहले से चुना) = सामान्य परमिटों के वाउचर। <b>Sale Returns</b> = वापस हुए परमिटों के वाउचर (Sale Return शीट में बने)। Activity हर row में लिखी जाती है।</p>
+<div class="fig"><div class="ddfig"><small>Activity</small><div class="ddv">Sales ▾</div><div class="ddl"><div class="ddi on">Sales</div><div class="ddi">Sale Returns</div></div><div class=ddn>Sale Returns = vouchers of the permits returned in Sale Return</div></div></div>
+</div>
+
+<div class="bd" id="d-vgodown"><div class="bdh"><i class="ic box">▾</i><div><b>Godown</b><small>शीट के ऊपर</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p>परमिटों का गोदाम। इस शीट का <b>अपना</b> Godown है - यहाँ चुनने से Khad Sale या Sale Cancel नहीं बदलता। 2 या ज़्यादा गोदाम हों तो फ़ाइल खुलने पर खाली रहता है: हर बार चुनें।</p>
+<div class="fig"><div class="ddfig"><small>Godown</small><div class="ddv">Demo Godown ▾</div><div class="ddl"><div class="ddi">- choose -</div><div class="ddi on">Demo Godown</div><div class="ddi">Demo Sub Godown</div></div><div class=ddn>this sheet's own Godown</div></div></div>
+</div>
+
+<div class="bd" id="d-vpayment"><div class="bdh"><i class="ic box">▾</i><div><b>Payment</b><small>शीट के ऊपर</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p><b>Cash</b>, <b>Credit</b> या <b>Cash and Credit</b> - वही भुगतान जिससे परमिट बने थे। सिर्फ़ इस Godown + Payment के परमिट दिखते और बनते हैं। इस PC पर याद रहता है।</p>
+<div class="fig"><div class="ddfig"><small>Payment</small><div class="ddv">Credit ▾</div><div class="ddl"><div class="ddi">Cash</div><div class="ddi on">Credit</div><div class="ddi">Cash and Credit</div></div><div class=ddn>the payment the permits were made with</div></div></div>
+</div>
+
+<div class="bd" id="d-vtiles"><div class="bdh"><img class="ic" src="../img/ribbon/rupee.png" alt=""><div><b>Totals</b><small>शीट के ऊपर, दाईं ओर</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p><b>₹ Saved</b> = DONE rows की राशि · <b>DONE</b> = सेव हुए वाउचर · <b>Errors</b> = ERROR या CHECK वाली rows · <b>Waiting</b> = <b>PACS पर</b> अभी रुके परमिट और उनकी राशि। Check pending voucher या Make voucher दबाने तक Waiting में "–" दिखता है (यह PACS से आता है, शीट से नहीं)।</p>
+<div class="fig"><div class="band" style="padding-left:8px"><div class="tiles" style="margin:0"><span class="tl money">₹ Saved 3,915.50</span><span class="tl dn">✔ DONE 2</span><span class="tl er">✖ Errors 1</span><span class="tl wt">⏳ Waiting 3 · ₹ 5,212.00</span></div></div></div>
+</div>
+
+<div class="gh">Login, Modules, Help - हर शीट पर एक जैसे</div>
+
+<div class="bd" id="d-login"><div class="bdh"><img class="ic" src="../img/ribbon/login.png" alt=""><div><b>Login to PACS</b><small>रिबन · PACS Login</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p>Chrome खोलकर PACS वेबसाइट में लॉगिन करता है - आप सिर्फ़ captcha लिखते हैं। Check pending voucher और Make voucher ज़रूरत पड़ने पर खुद भी लॉगिन करते हैं। <a href="getting-started.html#d-login">और जानकारी</a></p>
+</div>
+
+<div class="bd" id="d-details"><div class="bdh"><img class="ic" src="../img/ribbon/details.png" alt=""><div><b>PACS Details</b><small>रिबन · PACS Login</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p>आपका PACS ERP वेबसाइट User ID और password - इस PC पर एन्क्रिप्ट करके, Excel फ़ाइल में कभी नहीं।</p>
+</div>
+
+<div class="bd" id="d-website"><div class="bdh"><i class="ic box">▾</i><div><b>Website</b><small>रिबन · PACS Login</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p>आपका PACS सर्वर, जैसे <b>mp4.uniteerp.in</b>। वही चुनें जो आप अपने Chrome में खोलते हैं।</p>
+</div>
+
+<div class="bd" id="d-date"><div class="bdh"><i class="ic box">▾</i><div><b>Date (लॉगिन तारीख)</b><small>रिबन · PACS Login</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p>PACS इसी तारीख को <b>वाउचर तारीख</b> रखता है। dd-mm-yyyy लिखें; खाली = आज। बदलने पर PACS में फिर लॉगिन होता है (captcha)। पिछली तारीख "please check" विंडो में दिखती है ("(back date)")।</p>
+</div>
+
+<div class="bd" id="d-dot"><div class="bdh"><img class="ic" src="../img/ribbon/dot_green.png" alt=""><div><b>Logged in / Logged out</b><small>रिबन · PACS Login</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p>हरा = Chrome PACS में लॉगिन है। लाल = लॉगिन नहीं - क्लिक करके लॉगिन करें।</p>
+<div class="fig"><div class="vbox" style="font-size:13px;gap:6px"><span class="ok"><img class="ic" src="../img/ribbon/dot_green.png" alt=""> Logged in</span><span style="color:#C0262D"><img class="ic" src="../img/ribbon/dot_red.png" alt=""> Logged out</span></div></div>
+</div>
+
+<div class="bd" id="d-update"><div class="bdh"><img class="ic" src="../img/ribbon/update.png" alt=""><div><b>Check for update</b><small>रिबन · Update</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p>अभी PACS Auto का नया वर्ज़न ढूँढता है। पहले <a href="getting-started.html#update">अपडेट</a> पढ़ें: अपडेट के बाद शीटें खाली होती हैं (कॉपी रखी जाती है)।</p>
+</div>
+
+<div class="bd" id="d-modules"><div class="bdh"><img class="ic" src="../img/ribbon/modules.png" alt=""><div><b>Modules</b><small>रिबन · Modules</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p>PACS Auto की कोई भी शीट खोलता है - जैसे <a href="khad-sale.html">Khad Sale</a> या <a href="sale-cancel.html">Sale Cancel</a>।</p>
+</div>
+
+<div class="bd" id="d-help"><div class="bdh"><img class="ic" src="../img/ribbon/help.png" alt=""><div><b>Help</b><small>रिबन · Help</small></div><a class="up" href="#screen">↑ तस्वीर</a></div>
+<p>यह गाइड (English / Hindi), सभी गाइड, और <a href="getting-started.html#d-chat">Chat with support</a> - स्क्रीनशॉट के साथ सवाल या समस्या भेजें।</p>
+</div>
+
+<h2 id="columns">5. कॉलम</h2>
+<p>सभी कॉलम ऐप भरता है - आप यहाँ कुछ नहीं लिखते।</p>
+<table class="tbl">
+<tr><th>कॉलम</th><th>ऐप क्या लिखता है</th></tr>
+<tr><td>Activity</td><td>Sales या Sale Returns (ऊपर का चुनाव)।</td></tr>
+<tr><td>Permit No, Permit Date</td><td>परमिट (PACS का Bill No.) और उसकी तारीख।</td></tr>
+<tr><td>Godown, Payment</td><td>रन के चुनाव।</td></tr>
+<tr><td>Amount</td><td>PACS की अपनी राशि, उसके round-off के बाद - ऐप खुद कभी round नहीं करता।</td></tr>
+<tr><td>Batch ID</td><td>इस Save के लिए बना नया batch (Credit, Cash and Credit)। Cash में खाली।</td></tr>
+<tr><td>Saved On</td><td>Save की तारीख और समय।</td></tr>
+<tr><td>STATUS, MESSAGE</td><td>नतीजा - <a href="#status">भाग 7</a> देखें।</td></tr>
+</table>
+
+<h2 id="steps">6. कदम दर कदम</h2>
+<div class="flow"><span class="fs"><b>1</b>Activity, Godown, Payment</span><span class="ar">→</span><span class="fs"><b>2</b>Check pending voucher</span><span class="ar">→</span><span class="fs"><b>3</b>Make voucher</span><span class="ar">→</span><span class="fs"><b>4</b>please check → क्लिक</span><span class="ar">→</span><span class="fs"><b>5</b>DONE</span><span class="ar">→</span><span class="fs"><b>6</b>PACS पर पोस्ट</span></div>
+<ol class="steps">
+<li>शीट के ऊपर <a href="#d-vactivity">Activity</a>, <a href="#d-vgodown">Godown</a> और <a href="#d-vpayment">Payment</a> <b>चुनें</b>।</li>
+<li><a class="btn" href="#d-vcheck">Check pending voucher</a> - रुके परमिटों को सिर्फ़ देखना। कुछ सेव नहीं होता।</li>
+<li><a class="btn" href="#d-vmake">Make voucher</a> - ऐप सूची फिर पढ़ता है और "please check" विंडो दिखाता है।</li>
+<li>पढ़ें और हरे बटन पर <b>क्लिक</b> करें (जैसे "Make 3 sale vouchers")।</li>
+<li>Rows को <b>DONE</b> होते देखें, हर परमिट की एक। रुकना है? <a class="btn" href="#d-pause">Pause</a> / <a class="btn" href="#d-stop">Stop</a> - ये दो Save के बीच काम करते हैं।</li>
+<li>वाउचर PACS पर खुद पोस्ट करें।</li>
+</ol>
+
+<h2 id="status">7. STATUS और आम संदेश</h2>
+<table class="tbl">
+<tr><th>STATUS</th><th>मतलब</th><th>क्या करें</th></tr>
+<tr><td class="d">DONE</td><td>सेल वाउचर सेव; परमिट PACS की रुकी सूची से निकल गया।</td><td>तैयार हों तब PACS पर पोस्ट करें।</td></tr>
+<tr><td class="e">ERROR</td><td>सेव नहीं हुआ। MESSAGE में कारण। रन वहीं रुक गया।</td><td>कारण ठीक करके फिर Make voucher दबाएँ - परमिट अभी भी रुकी सूची में है।</td></tr>
+<tr><td class="c">SAVING / CHECK</td><td>Save दबा था, नतीजा साफ़ नहीं। रन वहीं रुक गया।</td><td>Check pending voucher दबाएँ: जो परमिट अब रुका नहीं, वह खुद <b>DONE</b> हो जाता है। अभी भी रुका = सेव नहीं हुआ: अगला Make voucher उसे बनाएगा (नई row) - पुरानी CHECK row मिटा सकते हैं।</td></tr>
+</table>
+<table class="tbl">
+<tr><th>MESSAGE / विंडो</th><th>क्या करें</th></tr>
+<tr><td>No permits are waiting for a sale voucher (Godown ..., ..., Activity ...)</td><td>इस Godown + Payment के हर परमिट का वाउचर बन चुका है - या Godown / Payment / Activity आपके परमिटों वाला नहीं है।</td></tr>
+<tr><td>Choose the Godown / the Payment Method (Sale Voucher) at the top of the sheet first.</td><td>पट्टी में चुनकर बटन फिर दबाएँ।</td></tr>
+<tr><td>Website message: ...</td><td>PACS ने Save मना किया। PACS के शब्द पढ़ें; PACS पर ठीक करें (जैसे day end, batch) और फिर चलाएँ।</td></tr>
+<tr><td>Save was pressed but the permits are still pending. Website said: ...</td><td>CHECK - ऊपर STATUS तालिका देखें।</td></tr>
+<tr><td>Still pending after Save. Website said: ...</td><td>Save के कुछ परमिट सूची में रह गए। Make voucher फिर चलाएँ।</td></tr>
+<tr><td>Batch Creation: ...</td><td>PACS ने batch नहीं बनाया। PACS पर batch / दिन देखें।</td></tr>
+<tr><td>Godown '...' is not on the Sale Voucher page</td><td>गोदाम ठीक वैसा चुनें जैसा PACS दिखाता है।</td></tr>
+<tr><td>The Sale Voucher page did not open (are you still logged in?)</td><td>Login to PACS दबाएँ, फिर बटन दोबारा।</td></tr>
+</table>
+
+<h2 id="know">8. जानने योग्य बातें</h2>
+<ul>
+<li>हर Save में एक परमिट, सबसे पुराना पहले - वही क्रम जो एक व्यक्ति PACS पर रखता।</li>
+<li>ऐप PACS की रुकी सूची पर काम करता है, आपकी लिखी rows पर नहीं - इसलिए ऐप से किसी परमिट के दो वाउचर कभी नहीं बनते।</li>
+<li>सेव वाउचर PACS पर पक्के हैं; पोस्ट करना आपका काम।</li>
+<li>इस अध्याय का वीडियो: जल्द।</li>
+</ul>
+<div class="pager"><a href="khad-sale.html"><small>← पिछला</small>Khad Sale</a><a href="sale-cancel.html" style="text-align:right"><small>अगला →</small>Sale Cancel</a></div><p class="foot">PACS Auto मदद · तस्वीरों में सभी नाम काल्पनिक हैं · जिस सवाल का जवाब गाइड में नहीं है: ऐप में Help → Chat with support।</p></main><aside class="toc"><b>इस पेज पर</b><a href="#what">1. यह मॉड्यूल क्या करता है</a><a href="#before">2. शुरू करने से पहले</a><a href="#screen">3. स्क्रीन</a><a href="#buttons">4. हर बटन और विकल्प</a><a href="#columns">5. कॉलम</a><a href="#steps">6. कदम दर कदम</a><a href="#status">7. STATUS और आम संदेश</a><a href="#know">8. जानने योग्य बातें</a></aside></div><script src="../site.js?v=8e6ede04"></script></body></html>
